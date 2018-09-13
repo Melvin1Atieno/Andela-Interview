@@ -18,8 +18,11 @@ Following are the criteria for checking the password:
 
 The program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma
 
-**Example**:
-    If the following passwords are given as input to the program:
-        - ABd1234@1,a F1#,2w3E*,2We3345
-        - Then, the output of the program should be:
-        - ABd1234@1
+**Example**
+If the following passwords are given as input to the program:
+
+- ABd1234@1,a F1#,2w3E*,2We3345
+
+- Then, the output of the program should be:
+
+- ABd1234@1
