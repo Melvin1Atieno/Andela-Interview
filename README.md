@@ -1,4 +1,6 @@
-# Password Checker
+# Andela Interview Technical Test
+
+## Password Checker
 
 A program to check the validity of password input by users.
 
@@ -26,3 +28,11 @@ If the following passwords are given as input to the program:
 - Then, the output of the program should be:
 
 - ABd1234@1
+
+## Triple Check
+
+A program that finds the single element in a list where every element  appears three times except for one.
+
+**Example**
+    Input : [5, 3, 4, 3, 5, 5, 3]
+    Output : 4
