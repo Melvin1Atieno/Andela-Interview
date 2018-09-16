@@ -19,23 +19,18 @@ def check_password(password):
         if not re.search(r'[0-9]', password):
             errormsg = "password must have atleast one number between 0-9"
             passwords.remove(password)
-        if not re.search(r'\W+', password):
+        if not re.search(r'[#$@]', password):
             errormsg = "password must have atleast one character from #$@"
             passwords.remove(password)
     if passwords:
         return ",".join(passwords)
     else:
         return errormsg
-    # else:
-    #     return errormsg
 
     
         
 
-myname = "ABd12341"
 
-
-print(check_password(myname))
         
         
         
