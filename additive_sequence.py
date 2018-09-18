@@ -14,6 +14,5 @@ def additive_sequence(sequence):
     else:
         return is_additive_sequence
         
-print(additive_sequence([2,11, 13]))
 
         
