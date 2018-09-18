@@ -36,3 +36,12 @@ A program that finds the single element in a list where every element  appears 
 **Example**
     Input : [5, 3, 4, 3, 5, 5, 3]
     Output : 4
+
+## Additive Sequence
+
+A Python program to find whether a list contains an additive sequence or not.
+An additive sequence is a sequence of numbers where the sum of the first two numbers is equal to the third one.
+
+>
+    Sample additive sequence: 6, 6, 12, 18, 30
+    In the above sequence 6 + 6 =12, 6 + 12 = 18, 12 + 18 = 30....
