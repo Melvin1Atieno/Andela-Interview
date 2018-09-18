@@ -20,6 +20,15 @@ class TestAdditiveSequence(unittest.TestCase):
         results = additive_sequence([1,2])
         self.assertEqual(False,results)
 
+    def test_additive_sequence_returns_true_three_digits_additive_squence(self):
+        results = additive_sequence([1,11,12])
+        self.assertEqual(True,results)
+
+    def test_additive_sequence_returns_false_for_three_digits_non_additive(self):
+        results = additive_sequence([2,11,12])
+        self.assertEqual(False,results)
+
+
 
 if __name__ == "__main__":
     unittest.main()
