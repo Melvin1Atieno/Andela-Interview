@@ -17,7 +17,7 @@ class TestPasswordChecker(unittest.TestCase):
         self.assertEqual("password must have atleast one letter between A-Z",results)
     
     def test_checker_checks_for_a_character(self):
-        results = check_password("123abcAD")
+        results = check_password("123abcAAD")
         self.assertEqual("password must have atleast one character from #$@",results)
 
     def test_password_checker_checks_for_minimum_length_of_6_characters(self):
@@ -29,7 +29,7 @@ class TestPasswordChecker(unittest.TestCase):
         self.assertEqual("maximum password length 12",results)
 
     def test_password_checker_returns_comma_separated_valid_passwords(self):
-        results = check_password("ABd1234@1,a F1#,2w3E*,2We3345")
+        results = check_password("2w3E,ABd1234@1,aF1#,2We3345")
         self.assertEqual("ABd1234@1",results)
 
     
