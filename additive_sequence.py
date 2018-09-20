@@ -15,4 +15,4 @@ def additive_sequence(sequence):
         return is_additive_sequence
         
 
-        
+print(additive_sequence([1,0,2,3,5]))        

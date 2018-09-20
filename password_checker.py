@@ -25,6 +25,9 @@ def check_password(password):
         return errormsg
 
 
+print(check_password("1a3A#67,1a3A#67"))
+
+
         
 
 

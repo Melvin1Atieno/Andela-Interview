@@ -66,4 +66,3 @@ def magic_eight_ball():
             magic_eight_ball()
         else:
             return "come back again"
-print(magic_eight_ball())
