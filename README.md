@@ -1,4 +1,4 @@
-# Andela Interview Technical Test
+# Technical Test
 
 ## Q1 Password Checker
 
